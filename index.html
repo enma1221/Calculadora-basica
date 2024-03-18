@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="container2">
+        <input type="text" id="calculadora" placeholder="0">
+        <div class="calculator">
+            <button class="btn color_operadores" onclick="borrarElementos()">C</button>
+            <button class="btn color_operadores" onclick="obtenerValores('/')">/</button>
+            <button class="btn color_operadores" onclick="obtenerValores('*')">*</button>
+            <button class="btn color_operadores" onclick="obtenerValores('+')">+</button>
+            <button class="btn color_numeros" onclick="obtenerValores(7)">7</button>
+            <button class="btn color_numeros" onclick="obtenerValores(8)">8</button>
+            <button class="btn color_numeros" onclick="obtenerValores(9)">9</button>
+            <button class="btn color_operadores" onclick="obtenerValores('-')">-</button>
+            <button class="btn color_numeros" onclick="obtenerValores(4)">4</button>
+            <button class="btn color_numeros" onclick="obtenerValores(5)">5</button>
+            <button class="btn color_numeros" onclick="obtenerValores(6)">6</button>
+            <button class="btn color_numeros" onclick="obtenerValores('.')">.</button>
+            <button class="btn color_numeros" onclick="obtenerValores(1)">1</button>
+            <button class="btn color_numeros" onclick="obtenerValores(2)">2</button>
+            <button class="btn color_numeros" onclick="obtenerValores(3)">3</button>
+            <button class="btn color_operadores" onclick="precedimiento()">=</button>
+            <button class="btn color_numeros" onclick="obtenerValores(0)">0</button>
+            <button class="btn color_numeros" onclick="obtenerValores(0)">0</button>
+            <button class="btn color_numeros" onclick="obtenerValores('**')">^</button>
+            <button class="btn color_numeros" onclick="obtenerValores('%')">%</button>
+            
+
+
+        </div>
+    </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
